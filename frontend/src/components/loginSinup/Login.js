@@ -46,7 +46,7 @@ const Login = () => {
       <Navbar />
       <div id="login-page">
         <div className="login-left">
-          <div className="head">Welcome Back</div>
+          <div className="head">Welcome</div>
           <div className="user-input">
             <i className="fa-regular fa-circle-user"></i>
             <input
@@ -72,7 +72,7 @@ const Login = () => {
           <div className="pass">
             <div className="f-pass">
               <Link to="/forget" className="p1" style={{ cursor: 'pointer' }}>
-                Forget Password
+                Forgot Password
               </Link>
             </div>
           </div>

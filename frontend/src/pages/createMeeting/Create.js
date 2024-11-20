@@ -4,7 +4,7 @@ import './create.css';
 import { useNavigate } from 'react-router-dom';
 
 const Create = () => {
-  
+
   const [value, setValue] = useState();
 
   const navigate = useNavigate();
@@ -27,10 +27,8 @@ const Create = () => {
       <div className="c_main">
         <div className="c_left">
           <div className="c_head">
-            <h2>Create Your<br />Digital Room!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, <br /> sed do eiusmod tempor
-              incididunt ut.</p>
+            <h2>Create Your<br /> Room!</h2>
+            <p>A video call meeting is the perfect way to connect with colleagues,<br /> clients, or friends in real-time, regardless of location</p>
           </div>
           <div className='c_t-btn'>
             <button onClick={handleNewMeetingClick} className="btn dot1 new-meeting">

@@ -9,13 +9,13 @@ function Home() {
       <div className="main">
         <div className="left">
           <div className="head">
-            <h2>Digital<br />Conference World </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, <br /> sed do eiusmod tempor
-              incididunt ut.</p>
+            <h2>iChat<br />Video Conference</h2>
+            <h3>Effortless Online Meetings Anytime, Anywhere</h3>
+            <p>
+              A video call meeting is the perfect way to connect with colleagues,<br /> clients, or friends in real-time, regardless of location. </p>
           </div>
           <div>
-            <Link to='/login' className="btn"><div id="dot"></div> <div className='enter'>ENTERE IN DIGITAL ROOM</div> <i class="fa-solid fa-arrow-right"></i></Link>
+            <Link to='/login' className="btn"><div id="dot"></div> <div className='enter'>ENTER INSIDE THE ROOM</div> <i class="fa-solid fa-arrow-right"></i></Link>
           </div>
         </div>
         <div className="right">

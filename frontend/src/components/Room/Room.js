@@ -19,8 +19,8 @@ const Room = () => {
     const myMeeting = async (element) => {
         const appID = appId;
         const serverSecret = serversecret;
-        const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomid, Date.now().toString(), "Prince Kushwaha");
-        // Create instance object from Kit Token.
+        const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomid, Date.now().toString(), "Name");
+        // Create instance object from Kit Token
         const zp = ZegoUIKitPrebuilt.create(kitToken);
         // start the call
         zp.joinRoom({
